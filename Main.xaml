@@ -161,7 +161,7 @@
           <InArgument x:TypeArguments="s:String[]">[{"AMZN","AAPL","XYZ"}]</InArgument>
         </Assign.Value>
       </Assign>
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Info" Message="[String.Join(&quot;,&quot;,dt_Input.AsEnumerable.Select(Function(r) r.Item(&quot;symbol&quot;).ToString).Intersect(arr_Symbol))]" />
+      <ui:LogMessage DisplayName="Linq : Log Message(Print symbols found in the array)" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Info" Message="[String.Join(&quot;,&quot;,dt_Input.AsEnumerable.Select(Function(r) r.Item(&quot;symbol&quot;).ToString).Intersect(arr_Symbol))]" />
     </Sequence>
   </Sequence>
 </Activity>
